@@ -1,0 +1,19 @@
+[package]
+name = "ttt"
+version = "0.1.0"
+
+[dependencies]
+starknet = "2.0.2"
+orion = { git = "https://github.com/gizatechxyz/orion.git" }
+layer2 = {path = "crates/layer2"}
+layer4 = {path = "crates/layer4"}
+layer6 = {path = "crates/layer6"}
+
+[workspace]
+members = [
+    "crates/layer2",
+    "crates/layer4",
+    "crates/layer6",
+]
+
+[[target.starknet-contract]]
