@@ -30,3 +30,9 @@ install cairo1 vscode extension
 
 install starknet sierra compile from here
 [sierra github](https://github.com/starkware-libs/cairo/tree/main/crates/bin/starknet-sierra-compile)
+apparently this is one way to get it
+
+```git clone git@github.com:starkware-libs/cairo.git
+cd cairo
+cargo build
+```
